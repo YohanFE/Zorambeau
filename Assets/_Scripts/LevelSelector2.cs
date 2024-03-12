@@ -1,0 +1,22 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
+public class LevelSelector2 : MonoBehaviour
+{
+
+    private void Start()
+    {
+
+    }
+    public void OpenScene()
+    {
+
+        SceneManager.LoadScene("Game2");
+    }
+
+
+
+
+}
+
